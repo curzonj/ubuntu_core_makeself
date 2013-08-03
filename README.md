@@ -24,4 +24,4 @@ package.bin file. eg.
     #/bin/sh
 
     wget -Opackage.bin FULL_URL
-    sh FULL_URL
+    sh package.bin
