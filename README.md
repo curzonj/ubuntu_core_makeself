@@ -15,7 +15,7 @@ Makeself is easier to install and more featureful than
 [arx](https://github.com/solidsnack/arx) but it's binaries cannot
 be executed by piping them to sh. You have to save the script
 and either run it or run `sh package.bin` because the script
-inspects itself using $0. We may change to arx in the future.
+inspects itself using $0.
 
 If you want to pipe a script from curl to sh, you might just write
 a "wrapper" script and put it at a different url next to the
